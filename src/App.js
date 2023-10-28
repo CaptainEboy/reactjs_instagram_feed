@@ -7,7 +7,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <header className="App-header" style={{textAlign:'center'}}>
+      <header className="App-header" style={{textAlign:'center', backgroundColor:'#262626'}}>
         <h1>Welcome To Coal Ibogun</h1>
       </header>
 
