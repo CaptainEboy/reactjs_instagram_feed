@@ -37,7 +37,7 @@ const InstaFeeds = ({token, ...props}) => {
     }, [props.limit])
 
     return (
-        <div className="container"  style={{textAlign:'center', backgroundColor:'#262626'}}>
+        <div className="container"  style={{ backgroundColor:'#262626'}}>
             {feeds.map((feed) => (
                 <Feed key={feed.id} feed={feed} />
             ))}
